@@ -1,0 +1,345 @@
+.bg-container {
+    background-color: #353b32;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.nav-text {
+    background-color: #353b32;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: #353b32;
+    color: orange;
+}
+
+.nav-text1 {
+    background-color: orange;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.protfolio {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: orange;
+    margin-left: 10px;
+}
+
+.home-sec {
+    height: 60vh;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/black-pasta-with-vegetables-black-plate-top-view-black-background-free-copy-space_187166-1239.jpg');
+}
+
+.home-text {
+    color: #353b32;
+    padding-left: 20px;
+    padding-top: 120px;
+    font-size: 50px;
+}
+
+.main-heading {
+    height: 50vh;
+    color: white;
+    width: 100vw;
+    background-color: #2a2e2c;
+}
+
+.home {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #4f5953;
+    margin-left: 60px;
+    padding-top: 70px;
+}
+
+.home1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-left: 60px;
+    padding-top: 0px;
+}
+
+.dot {
+    color: orange;
+    font-size: 40px;
+}
+
+.button {
+    color: orange;
+    font-weight: bold;
+    margin-left: 60px;
+    background-color: transparent;
+    border-color: orange;
+}
+
+.aboutme {
+    color: orange;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    text-shadow: #fc0 1px 0 10px;
+    padding-bottom: 20px;
+
+}
+
+.img {
+    height: 180px;
+    width: 180px;
+    margin-left: 50px;
+    border-radius: 100px;
+}
+
+.bg-image {
+    height: 30vh;
+    width: 50vw;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+
+.aboutme1 {
+    color: white;
+    font-size: 20px;
+    font-family: sansserif;
+}
+
+.name {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image {
+    color: white;
+    font-size: 15px;
+}
+
+.intro {
+    padding-left: 15px;
+    text-align: left;
+    height: 50vh;
+}
+
+.aboutmename {
+    font-size: 15px;
+    margin-top: 0px;
+    width: 350px;
+    text-align: center;
+    color: orange;
+}
+
+.myname {
+    font-size: 15px;
+    color: white;
+    width: 25vw;
+    width: 350px;
+    text-align: center;
+}
+
+.contact-details {
+    margin-top: 0px;
+    height: 40vh;
+    background-size: cover;
+    background-color: #353b32;
+    text-align: center;
+}
+
+.aboutme2 {
+    color: orange;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    text-shadow: #fc0 1px 0 10px;
+    padding-bottom: 20px;
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 350px;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px orange;
+    border-radius: 100px;
+    background: orange;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+.main-heading1 {
+    height: 60vh;
+    color: white;
+    width: 100vw;
+    background-color: #2a2e2c;
+}
+
+.skills {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.skilltext {
+    color: orange;
+}
+
+.home3 {
+    font-size: 25px;
+    color: white;
+    margin-left: 60px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.progress1 {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 350px;
+}
+
+.progress-value1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px orange;
+    border-radius: 100px;
+    background: orange;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.progress2 {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 350px;
+}
+
+.progress-value2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px orange;
+    border-radius: 100px;
+    background: orange;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.pass-text {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.simbol {
+    color: white;
+    background-color: #2a2e2c;
+    height: 25vh;
+    width: 20vw;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 60px;
+    width: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-details1 {
+    margin-top: 0px;
+    height: 60vh;
+    background-size: cover;
+    background-color: #353b32;
+    text-align: center;
+
+}
+
+.services-heading {
+    font-weight: bold;
+}
+
+.services-belowtxt {
+    font-size: 10px;
+}
+
+.contactmesec {
+    background-color: orange;
+    height: 30vh;
+}
+
+.aboutme3 {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    text-shadow: #fc0 1px 0 10px;
+    padding-bottom: 20px;
+}
+
+.phonenum {
+    font-size: 15px;
+    color: white;
+}
+
+.secmargin {
+    margin-left: 10px;
+}
